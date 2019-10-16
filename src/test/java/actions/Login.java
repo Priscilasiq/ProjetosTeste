@@ -28,8 +28,8 @@ public class Login {
 		driver.findElement(By.xpath("//*[@id=\"u28\"]/div[1]/div/div[2]/div[2]/div/ul[1]/li[1]/a")).click();
 
 		Thread.sleep(6000);
-		driver.findElement(By.xpath("//*[contains(@id,'userid')]")).sendKeys("priscila.siqueira@accenture.com");
-		driver.findElement(By.id("pass")).sendKeys("Pipoca123");
+		driver.findElement(By.xpath("//*[contains(@id,'userid')]")).sendKeys("arquivo.txt");
+		driver.findElement(By.id("pass")).sendKeys("arquivo.txt");
 		driver.findElement(By.id("signin_button")).click();
 
 	}
